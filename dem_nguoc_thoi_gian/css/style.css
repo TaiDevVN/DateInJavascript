@@ -1,0 +1,19 @@
+td.wide {
+    width: 50px;
+}
+
+input.txt {
+    width: 54px;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    width: 58px;
+}
+
+div#lstLbl {
+    display: none;
+}

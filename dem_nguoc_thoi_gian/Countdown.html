@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Buổi 14 - Bài 3</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <form onsubmit="return false;">
+        <button id="btnStart" onclick="Start()">Bắt đầu</button>
+        <button id="btnPause" onclick="Pause()" disabled>Tạm dừng</button>
+        <button id="btnStop" onclick="Stop()" disabled>Kết thúc</button>
+        <div id="lstTxt">
+            <input type="text" id="txtHour" class="txt center" value="0">
+            <input type="text" id="txtMinute" class="txt center" value="0">
+            <input type="text" id="txtSecond" class="txt center" value="0">
+        </div>
+        <div id="lstLbl">
+            <table>
+                <tr>
+                    <td class="wide center"><span id="lblHour">00</span></td>
+                    <td>:</td>
+                    <td class="wide center"><span id="lblMinute">00</span></td>
+                    <td>:</td>
+                    <td class="wide center"><span id="lblSecond">00</span></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+
+</html>
